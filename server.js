@@ -1,4 +1,4 @@
-require('dotenv').config({path: './sample.env'});
+require('dotenv').config();
 const express     = require('express');
 const bodyParser  = require('body-parser');
 const expect      = require('chai').expect;
