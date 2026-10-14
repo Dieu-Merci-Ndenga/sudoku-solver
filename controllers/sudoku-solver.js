@@ -79,6 +79,7 @@ class SudokuSolver {
 
     for(let i = 0; i < 3; i++){
       for(let j = 0; j < 3; j++) {
+        if(i + startRow === row - 1 && j + startCol === column - 1) continue
         if(grid[i + startRow][j + startCol] == value)
           return false
         }
